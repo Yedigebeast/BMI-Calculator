@@ -101,8 +101,9 @@
 			children = (
 				FE87E5C02838DD0400136AC5 /* AppDelegate.swift */,
 				FE87E5C22838DD0400136AC5 /* SceneDelegate.swift */,
-				FE87E5C42838DD0400136AC5 /* ViewController.swift */,
-				FE87E5C62838DD0400136AC5 /* Main.storyboard */,
+				FE87E5F22838DDBA00136AC5 /* Models */,
+				FE87E5F02838DD7500136AC5 /* Views */,
+				FE87E5F12838DD9600136AC5 /* Controllers */,
 				FE87E5C92838DD0700136AC5 /* Assets.xcassets */,
 				FE87E5CB2838DD0700136AC5 /* LaunchScreen.storyboard */,
 				FE87E5CE2838DD0700136AC5 /* Info.plist */,
@@ -125,6 +126,29 @@
 				FE87E5E32838DD0800136AC5 /* BMI_CalculatorUITestsLaunchTests.swift */,
 			);
 			path = "BMI CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		FE87E5F02838DD7500136AC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE87E5C62838DD0400136AC5 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE87E5F12838DD9600136AC5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE87E5C42838DD0400136AC5 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FE87E5F22838DDBA00136AC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
