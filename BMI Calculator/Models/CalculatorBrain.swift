@@ -30,10 +30,10 @@ struct CalculatorBrain {
     }
     
     func getAdvice() -> String {
-        return BMIValue?.advice ?? "Error!"
+        return BMIValue?.advice ?? "No Advice"
     }
 
     func getColor() -> UIColor {
-        return BMIValue?.color ?? #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+        return BMIValue?.color ?? #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     }
 }
